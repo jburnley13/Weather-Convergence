@@ -1,0 +1,41 @@
+/* Iphones em sua maioria */
+
+@media (min-width: 320px) and (max-width:600px) {
+    .container {
+        width: 302px;
+        height: 568px;
+    }
+    .principal {
+        width: 320px;
+    }
+    .prev-dia {
+        width: 120px;
+        height: 160px;
+        position: relative;
+        top: 30px;
+        left: 40px;
+        padding-top: 27px;
+    }
+    .select-city {
+        height: 110px;
+    }
+}
+
+
+/* Ipad */
+
+@media (min-width: 760px) and (max-width:1024px) {
+    .container {
+        height: 350px;
+    }
+}
+
+
+/* Full HD ou superior */
+
+@media (min-width: 1920px) {
+    .container {
+        height: 400px;
+        width: 740px;
+    }
+}

@@ -1,0 +1,132 @@
+/* PRESETS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Inicio CSS */
+
+
+/* Tamanho da tela */
+.clear{
+    clear: both;
+}
+.container{
+    width: 700px;
+    height:320px;
+    margin: 5% auto;
+    background-image: url('./imagens/wather.jpg') ;
+    background-repeat: no-repeat;
+}
+
+/* Tela principal */
+.principal{
+    width: 320px;
+    height: 220px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    float: left;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal img{
+    width: 270px;
+    float: left;
+    position: relative;
+    right: 50px;
+    margin-top: -100px;
+}
+.principal span{
+    display: block;
+}
+.principal h1{
+    float: right;
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+/* Escolher a cidade / select */
+
+.select-city{
+    position: relative;
+    top: 150px;
+    padding-top: 17px;
+    margin-left: 2px;
+    
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 115px;  
+    
+}
+.select-city p{
+    margin-left: -4px;
+}
+
+.select-city select{
+    background: url(imagens/select1.png) no-repeat rgba(0, 0, 0, 0.6); 
+    background-position: 224px center;
+    width: 270px; 
+    height:50px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:18px; 
+    padding:13px 20px 13px 12px; 
+    color:#fff; 
+    text-indent: 0.01px; 
+    text-overflow: "";     
+    position: relative;
+    bottom: 100px;
+    border: 1px solid white;
+    margin-bottom: -20px;
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+    
+}
+
+
+
+/* Inicio da tela com os dados */
+.box-principal{
+    width: 312px;
+    height: 294px;
+    float: left;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+
+.prev-dia{
+    float: left;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 1px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prev-dia p{
+    margin-left: 13px;
+}
+.previsao{
+    width: 60px;
+    height: 87px;
+    margin-bottom: 10px;
+}
+.seta{
+    width: 30px;
+    float: left;
+}
+.temperatura{
+    margin-bottom: 20px;
+}
+.temperatura span{
+    display: block;
+    margin-left: 25px;  
+}
+.maxmin{
+    font-size: 18px;
+}
